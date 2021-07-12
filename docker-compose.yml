@@ -1,0 +1,13 @@
+version: "3.0"
+
+services:
+  kerio:
+    container_name: kerio_vpn
+    privileged: true
+    cap_add:
+      - NET_ADMIN
+    image: 11a05ba01e3c
+    ports:
+      - 8118:8118
+    volumes:
+      - ./kerio-kvc.conf:/etc/kerio-kvc.conf
