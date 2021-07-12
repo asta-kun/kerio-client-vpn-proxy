@@ -38,6 +38,6 @@ $ docker-compose up -d
 ### Step #3 - Test it ✨
 
 ```
-$ curl --proxy http://127.0.0.1 https://api.ipify.org
+$ curl --proxy http://127.0.0.1:8118 https://api.ipify.org
 $ >>> Some amazing IP
 ```
