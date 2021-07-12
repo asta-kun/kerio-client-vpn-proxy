@@ -2,7 +2,7 @@
 
 Get your config file
 
-sudo docker run -it --rm -v $(pwd)/kerio-kvc.conf:/etc/kerio-kvc.conf 39e1d896f5af
+sudo docker run -it --rm -v $(pwd)/kerio-kvc.conf:/etc/kerio-kvc.conf jarri1999/kerio-client-generate-config
 
 # SECOND STEP
 

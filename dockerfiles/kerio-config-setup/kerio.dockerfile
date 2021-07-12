@@ -1,4 +1,4 @@
-from ubuntu:18.04
+FROM ubuntu:18.04
 
 RUN mkdir /app
 RUN mkdir /app/binaries

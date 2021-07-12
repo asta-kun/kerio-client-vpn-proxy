@@ -1,4 +1,4 @@
-from 5440aaae1298
+FROM jarri1999/kerio-client-generate-config
 
 
 RUN apt-get update
